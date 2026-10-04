@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFE6DA;
+    color: #263026;
+    min-height: 100vh;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    background-color: #758467;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+
+/* =========================
+   MAIN CARD
+========================= */
+
+.card {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+
+    background-color: #9CAF88;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card h2 {
+    color: #758467;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #667060;
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    background-color: #819171;
+    color: white;
+
+    border: none;
+    padding: 13px 30px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #758467;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   RESULT
+========================= */
+
+.result {
+    background-color: #CBD5C0;
+
+    padding: 30px;
+
+    margin-top: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    display: none;
+}
+
+.result h2 {
+    color: #758467;
+    margin-bottom: 15px;
+}
+
+.result p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   GRADING SCALE
+========================= */
+
+.grading {
+    background-color: white;
+
+    margin-top: 20px;
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.grading h3 {
+    text-align: center;
+    color: #758467;
+
+    margin-bottom: 20px;
+}
+
+
+.grade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+
+    margin-bottom: 10px;
+
+    border-radius: 8px;
+
+    background-color: #DFE6DA;
+}
+
+.grade span {
+    font-weight: bold;
+}
+
+.excellent {
+    border-left: 6px solid #758467;
+}
+
+.passed {
+    border-left: 6px solid #9CAF88;
+}
+
+.failed {
+    border-left: 6px solid #819171;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+
+    margin-top: 25px;
+
+    color: #667060;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .header {
+        padding: 30px 20px;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        padding: 30px 20px;
+    }
+
+    .grade {
+        font-size: 14px;
+    }
+}

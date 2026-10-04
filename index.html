@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Score Evaluator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>🕮Student Score Evaluator🕮</h1>
+            <p>Enter your score and see what's your remarks!</p>
+        </div>
+
+        <div class="card">
+
+            <div class="icon">✓</div>
+
+            <h2>Score Evaluation</h2>
+
+            <button onclick="startEvaluation()">
+                Start Evaluation
+            </button>
+
+        </div>
+
+        <div id="result" class="result">
+            <h2>Result</h2>
+            <p id="resultText">Your result will appear here.</p>
+        </div>
+
+        <div class="grading">
+            <h3>Grading Scale</h3>
+
+            <div class="grade excellent">
+                <span>90–100</span>
+                <strong>Excellent</strong>
+            </div>
+
+            <div class="grade passed">
+                <span>75–89</span>
+                <strong>Passed</strong>
+            </div>
+
+            <div class="grade failed">
+                <span>Below 75</span>
+                <strong>Failed</strong>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>REYES,A - FINALS LAB 2</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
